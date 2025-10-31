@@ -107,7 +107,7 @@ void liberarMemoria(Territorio* mapa) {
     free(mapa);
 }
 
-// Interface
+// INTERFACE PARA ESCOLHER OPÇÃO
 void exibirMenuPrincipal() {
     printf("\n=== Menu ===\n");
     printf("1 - Atacar\n");
